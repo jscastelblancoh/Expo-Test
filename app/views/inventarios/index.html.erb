@@ -1,0 +1,32 @@
+  <%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete %>
+<p id="notice"><%= notice %></p>
+
+<h1>Inventarios</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Cantidad</th>
+      <th>Descripcion</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @inventarios.each do |inventario| %>
+      <tr>
+        <td><%= inventario.name %></td>
+        <td><%= inventario.cantidad %></td>
+        <td><%= inventario.descripcion %></td>
+        <td><%= link_to 'Show', inventario %></td>
+        <td><%= link_to 'Edit', edit_inventario_path(inventario) %></td>
+        <td><%= link_to 'Destroy', inventario, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Inventario', new_inventario_path %>
