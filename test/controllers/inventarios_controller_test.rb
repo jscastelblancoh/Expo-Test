@@ -8,6 +8,8 @@ class InventariosControllerTest < ActionDispatch::IntegrationTest
   def test_index
     get inventarios_url
     assert_response :success
+    #conpobamos la ruta
+    assert_routing "/inventarios", controller: "inventarios", action: "index"
   end
 
   def test_new
