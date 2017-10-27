@@ -8,7 +8,7 @@ RSpec.describe [1, 2, 3] do
     it { is_expected.to contain_exactly(3, 1, 2) }
     it { is_expected.to contain_exactly(3, 2, 1) }
 
-    # deliberate failures
+    # fallas deliberadas
     #it { is_expected.to contain_exactly(1, 2, 1) }
 
 

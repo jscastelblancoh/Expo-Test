@@ -12,7 +12,7 @@ RSpec.describe [1, 3, 7] do
     it { is_expected.not_to include(17) }
     it { is_expected.not_to include(43, 100) }
   
-    # deliberate failures
+    # fallas deliberadas
     #it { is_expected.to include(4) }
     #it { is_expected.to include(be_even) }
     #it { is_expected.not_to include(1) }
@@ -31,7 +31,7 @@ RSpec.describe "a string" do
     it { is_expected.not_to include("foo") }
     it { is_expected.not_to include("foo", "bar") }
   
-    # deliberate failures
+    # fallas deliberadas
     #it { is_expected.to include("foo") }
     #it { is_expected.not_to include("str") }
     #it { is_expected.to include("str", "foo") }
@@ -49,7 +49,7 @@ RSpec.describe "a string" do
     it { is_expected.not_to include(:a => 5) }
     it { is_expected.not_to include(:b => 7, :a => 5) }
   
-    # deliberate failures
+    # fallas deliberadas
     #it { is_expected.not_to include(:a) }
     #it { is_expected.not_to include(:b, :a) }
     #it { is_expected.not_to include(:a => 7) }

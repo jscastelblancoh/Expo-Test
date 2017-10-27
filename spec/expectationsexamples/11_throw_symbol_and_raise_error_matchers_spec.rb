@@ -3,7 +3,7 @@ RSpec.describe "throw" do
   specify { expect { throw :bar, 7 }.to     throw_symbol }
   specify { expect { 5 + 5         }.not_to throw_symbol }
 
-  # deliberate failures
+  # fallas deliberadas
   #specify { expect { throw :foo    }.not_to throw_symbol }
   #specify { expect { throw :bar, 7 }.not_to throw_symbol }
   #specify { expect { 5 + 5         }.to     throw_symbol }

@@ -4,7 +4,7 @@ RSpec.describe "a string" do
     it { is_expected.not_to respond_to(:to_model) }
     it { is_expected.not_to respond_to(:compact, :flatten) }
   
-    # deliberate failures
+    # fallas deliberadas
     #it { is_expected.to respond_to(:to_model) }
     #it { is_expected.to respond_to(:compact, :flatten) }
     #it { is_expected.not_to respond_to(:length) }

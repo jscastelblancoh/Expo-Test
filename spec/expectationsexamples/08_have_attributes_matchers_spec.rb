@@ -11,7 +11,7 @@ RSpec.describe Person.new("Juan", 21) do
   it { is_expected.not_to have_attributes(:age => 10) }
   it { is_expected.not_to have_attributes(:age => (a_value < 20) ) }
 
-  # deliberate failures
+  # fallas deliberadas
   #it { is_expected.to have_attributes(:name => "Bob") }
   #it { is_expected.to have_attributes(:age => 10) }
 

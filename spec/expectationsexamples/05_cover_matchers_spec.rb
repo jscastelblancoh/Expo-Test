@@ -7,7 +7,7 @@ RSpec.describe (1..10) do
     it { is_expected.not_to cover(11) }
     it { is_expected.not_to cover(11, 12) }
   
-    # deliberate failures
+    # fallas deliberadas
     #it { is_expected.to cover(11) }
     #it { is_expected.not_to cover(4) }
     #it { is_expected.not_to cover(6) }

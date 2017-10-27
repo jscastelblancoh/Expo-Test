@@ -16,11 +16,11 @@ end
 RSpec.describe "Earth" do
     let(:earth) { Planet.new("Earth") }
     specify { expect(earth).to exist }
-    #specify { expect(earth).not_to exist } # deliberate failure
+    #specify { expect(earth).not_to exist } # falla deliberada
 end
   
 RSpec.describe "Tatooine" do
     let(:tatooine) { Planet.new("Tatooine") }
-    #specify { expect(tatooine).to exist } # deliberate failure
+    #specify { expect(tatooine).to exist } # falla deliberada
     specify { expect(tatooine).not_to exist }
 end
