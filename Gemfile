@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rspec-rails'
-gem 'factory_girl'
+gem 'factory_girl_rails'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
