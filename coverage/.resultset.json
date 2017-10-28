@@ -1,19 +1,22 @@
 {
   "MiniTest": {
     "coverage": {
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/helpers/application_helper.rb": [
+      "/home/jair/Expo-Test/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/helpers/home_helper.rb": [
+      "/home/jair/Expo-Test/app/helpers/home_helper.rb": [
         1,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/helpers/inventarios_helper.rb": [
+      "/home/jair/Expo-Test/app/helpers/inventarios_helper.rb": [
         1,
+        1,
+        1,
+        null,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/test/controllers/inventarios_controller_test.rb": [
+      "/home/jair/Expo-Test/test/controllers/inventarios_controller_test.rb": [
         1,
         null,
         1,
@@ -61,24 +64,59 @@
         null,
         1,
         null,
-        null
-      ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/test/models/inventario_test.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
         null,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/test/models/user_test.rb": [
+      "/home/jair/Expo-Test/test/helpers/inventarios_helper_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/home/jair/Expo-Test/test/mailers/user_mailer_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/jair/Expo-Test/test/models/inventario_test.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/home/jair/Expo-Test/test/models/user_test.rb": [
         1,
         null,
         1,
@@ -105,11 +143,13 @@
         null,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/models/inventario.rb": [
+      "/home/jair/Expo-Test/app/models/inventario.rb": [
         1,
+        1,
+        null,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/controllers/inventarios_controller.rb": [
+      "/home/jair/Expo-Test/app/controllers/inventarios_controller.rb": [
         1,
         1,
         null,
@@ -185,12 +225,12 @@
         null,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/controllers/application_controller.rb": [
+      "/home/jair/Expo-Test/app/controllers/application_controller.rb": [
         1,
         1,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/controllers/home_controller.rb": [
+      "/home/jair/Expo-Test/app/controllers/home_controller.rb": [
         1,
         1,
         1,
@@ -198,112 +238,64 @@
         null,
         null,
         null
+      ],
+      "/home/jair/Expo-Test/app/mailers/user_mailer.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/jair/Expo-Test/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1508250998
+    "timestamp": 1509164504
   },
   "Unit Tests": {
     "coverage": {
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/helpers/application_helper.rb": [
+      "/home/jair/Expo-Test/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/helpers/home_helper.rb": [
+      "/home/jair/Expo-Test/app/helpers/home_helper.rb": [
         1,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/helpers/inventarios_helper.rb": [
-        1,
-        null
-      ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/models/inventario.rb": [
+      "/home/jair/Expo-Test/app/helpers/inventarios_helper.rb": [
         1,
         1,
+        0,
         null,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/controllers/inventarios_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        0,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        2,
-        1,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        1,
-        null,
-        null,
-        null,
+      "/home/jair/Expo-Test/app/models/inventario.rb": [
         1,
         1,
         null,
         null
       ],
-      "/home/jscastelblancoh/Documentos/ingesoft2/Pruebas/MinitestExample/app/controllers/application_controller.rb": [
+      "/home/jair/Expo-Test/app/mailers/user_mailer.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/jair/Expo-Test/app/mailers/application_mailer.rb": [
+        1,
         1,
         1,
         null
       ]
     },
-    "timestamp": 1508295009
+    "timestamp": 1509163087
   }
 }

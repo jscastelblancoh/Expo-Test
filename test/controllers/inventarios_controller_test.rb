@@ -44,5 +44,6 @@ class InventariosControllerTest < ActionDispatch::IntegrationTest
     end
 
     assert_redirected_to inventarios_path
+
   end
 end
